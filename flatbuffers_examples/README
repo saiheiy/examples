@@ -1,0 +1,2 @@
+~/packages/flatbuffers/flatc --cpp examples.fbs
+g++ -std=c++11  -o writer -I/Users/saiheiyeung/packages/flatbuffers/include writer.cpp 
