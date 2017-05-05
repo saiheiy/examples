@@ -1,1 +1,0 @@
-g++ -std=c++11 -I/Users/saiheiyeung/local_install/zeromq-4.2.1/include -L/Users/saiheiyeung/local_install/zeromq-4.2.1/lib -lzmq hello_world_client.cpp

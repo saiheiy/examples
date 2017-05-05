@@ -17,7 +17,7 @@ int main(){
         zmq::message_t reply;
         socket.recv(&reply);
         std::string *reply_str = static_cast<std::string *>(reply.data());
-        std::cout << "Received reply: " << reply_str << std::endl;
+        std::cout << "Received reply: " << *reply_str << std::endl;
     }
     return 0;
 }
