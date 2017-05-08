@@ -1,0 +1,6 @@
+mvn archetype:generate -DgroupId=com.saihei.demo -DartifactId=zmq-demo -DarchetypeArtifactId=maven-archetype-quickstart -DinteractiveMode=false
+mvn clean install
+java -cp target/zmq-demo-1.0-SNAPSHOT.jar com.saihei.demo.App
+https://github.com/zeromq/jeromq/wiki/Performance
+java -cp target/zmq-demo-1.0-SNAPSHOT-jar-with-dependencies.jar com.saihei.demo.HelloWorldServer  &
+java -cp target/zmq-demo-1.0-SNAPSHOT-jar-with-dependencies.jar com.saihei.demo.HelloWorldClient
